@@ -1,0 +1,27 @@
+
+.App .task1{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-evenly;
+  padding: 20px;
+  align-items: center;
+  background-color: rgb(243, 243, 242);
+}
+.task1 > *{
+  flex-grow: 0.5;
+}
+.task2 h1{
+  margin: 10px;
+}  
+.task2 .tr:nth-child(1){
+  font-size: 20px;
+  color: gray;
+  font-weight: 600;
+}
+.Task4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

@@ -1,0 +1,99 @@
+
+.task4{
+     display: grid;
+     gap: 10px;
+     max-width: 567px;
+     background-color: bisque;
+     padding: 20px;
+
+}
+.menu{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+}
+.menu img{
+     width: 60px;
+}
+.right img {
+     margin: 10px;
+     width: 30px;
+}
+.task4 h6{
+     background-color: rgb(78, 78, 231);
+     display: inline;
+     width: max-content;
+     padding: 5px 16px;
+     border-radius: 50px;
+     font-size: 16px;
+     color: white;
+
+}
+.start-con{
+     display: flex;
+     gap: 20px;
+}
+.thumbnail{
+     display: grid;
+     gap: 20px;
+     grid-template-columns: 2fr 0.5fr;
+
+}
+.first-img{
+     background: url('../../assets/music player.png') no-repeat ;
+     background-size: cover;
+     height: 150px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   
+}
+.first-img button{
+     padding: 16px;
+     border-radius: 50%;
+     border: none;
+     font-size: 18px;
+     font-weight: 600;
+     color: white;
+     background-color: rgb(59, 102, 241);
+}
+.right-img{
+     display: grid;
+     grid-template-rows: 1fr 0.5fr;
+     
+}
+.right-img button:nth-child(1){
+     background-color: rgb(59, 102, 241);
+     border: none;
+     border-radius: 5px 5px 0px 0px;
+     font-size: 18px;
+     font-weight: 600;
+     color: white;
+}
+.right-img button:nth-child(2){
+     background-color: black;
+     border: none;
+     border-radius: 0px 0px 5px 5px;
+     font-size: 18px;
+     font-weight: 600;
+     color: white;
+}
+.signup{
+     padding: 10px;
+     background-color: #fff;
+     border: 2px solid black;
+     border-radius: 5px;
+     font-size: 18px;
+     font-weight: 600;
+}
+.newProduct{
+     padding: 10px;
+     background-color: black;
+     color: white;
+     font-size: 18px;
+     border-radius: 5px;
+     font-weight: 600;
+     border: none;
+}

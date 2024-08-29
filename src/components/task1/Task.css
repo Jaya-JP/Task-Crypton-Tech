@@ -1,0 +1,32 @@
+.Task1{
+     display: grid;
+     background-color: white;
+     border-radius: 26px;
+     padding: 5px 20px;
+     gap: 20px;
+}
+.top-con{
+     display: flex; 
+     gap: 20px;
+     justify-content: space-between;
+     align-items: center;
+     gap: 50px;
+}
+.bottom-con{
+     display: flex;
+     align-items: center;
+}
+.top-con h4{
+     color: red;
+}
+h4 span{
+     margin: 5px;
+}
+.bottom-con img{
+     width: 50px;
+}
+.bottom-con h1{
+     margin-left: 20px;
+}
+
+
